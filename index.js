@@ -7,3 +7,9 @@ const client = new Client({ intents: [
 ] });
 
 
+const TOKEN = 'TOKEN_HERE';
+client.login(TOKEN);
+
+
+
+
