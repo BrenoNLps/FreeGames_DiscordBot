@@ -10,6 +10,8 @@ const client = new Client({ intents: [
 const TOKEN = 'TOKEN_HERE';
 client.login(TOKEN);
 
-
+client.once('ready', () => {
+    console.log(`Logged in as ${client.user.tag}!`);
+});
 
 
